@@ -152,6 +152,26 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 3
 }
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'ERROR',
+            'class': 'logging.FileHandler',
+            'filename': '/var/log/django/django_error.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+    },
+}
+
+
 CORS_ORIGIN_ALLOW_ALL = True
 
 FILE_UPLOAD_PERMISSIONS=0o640
