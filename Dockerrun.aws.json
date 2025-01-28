@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "12905/realest-estate-backend:lates",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": 80
+      }
+    ]
+  }
