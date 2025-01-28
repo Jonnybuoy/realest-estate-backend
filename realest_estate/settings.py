@@ -28,6 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['http://realest-estate-backend.us-east-1.elasticbeanstalk.com/', 'localhost']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
