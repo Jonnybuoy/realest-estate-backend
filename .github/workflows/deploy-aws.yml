@@ -19,8 +19,8 @@ jobs:
       - name: Deploy to Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v22
         with:
-          application_name: DjangoAppBE
-          environment_name: DjangoAppBE-env-1
+          application_name: RLBackend
+          environment_name: RLBackend-env
           version_label: ${{ github.sha }}
           region: us-east-1
           deployment_package: Dockerrun.aws.json

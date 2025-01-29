@@ -25,7 +25,7 @@ SECRET_KEY = '#i+h8pcs5sx6kb9$^z_z$ruu4x^z7-m*by$ed-=h#9pefx@m_%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['realest-estate-backend2.us-east-1.elasticbeanstalk.com', 'localhost']
+ALLOWED_HOSTS = ['rl-backend.us-east-1.elasticbeanstalk.com', 'localhost']
 
 
 # Application definition
