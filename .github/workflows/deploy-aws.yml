@@ -20,7 +20,7 @@ jobs:
         uses: einaregilsson/beanstalk-deploy@v22
         with:
           application_name: DjangoAppBE
-          environment_name: DjangoAppBE-env
+          environment_name: DjangoAppBE-env-1
           version_label: ${{ github.sha }}
           region: us-east-1
           deployment_package: Dockerrun.aws.json
